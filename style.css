@@ -1,0 +1,39 @@
+body{
+    background-color: #f0f0f0;
+}
+h1{
+    color: red;
+    font-size: 25px;
+    background-color: black;
+}
+p{
+    font-size: large;
+    text-align: center;
+    font-family: bold;
+    color: blue;
+}
+img{
+    max-width: 50%;
+    max-height: 50%;
+}
+
+ul li{
+    color: green;
+    background-color: yellow;
+    font-size: 15px;
+    text-align: center;
+}
+
+ol li{
+    font-size: 30px;
+    color: violet;
+    font-family: bold;
+}
+.enviar{
+    border-radius: 5px;
+    background-color: red;
+}
+.etiqueta{
+    font-size: 15px;
+    background-color: aqua;
+}
