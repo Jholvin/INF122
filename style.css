@@ -1,10 +1,12 @@
 body{
-    background-color: #f0f0f0;
+    background-color: #c7cad0;    
 }
 h1{
-    color: red;
-    font-size: 25px;
-    background-color: black;
+    text-align: center;
+    color: #bc6cd9;
+}
+h2{
+    color: #bc6cd9;
 }
 p{
     font-size: large;
@@ -29,19 +31,29 @@ ol li{
     color: violet;
     font-family: bold;
 }
+
+
 .enviar{
-    border-radius: 5px;
-    background-color: red;
+    border: solid;
+    border-radius: 10px;
+    background-color: #00FF00;
+    color: #000000;
 }
+
+
 .etiqueta{
     font-size: 15px;
-    background-color: aqua;
+    background-color: #ffbbbb;
 }
 /*
 mezclar estos colores para sacar combinaciones
 Blanco - #FFFFFF 
 Negro - #000000
+
++-+-+-+--+-+-+-+-+-+--
 Azul - #0000FF
-Verde - #008000
+Verde - #00FF00
 Rojo - #FF0000
 */
+
+
