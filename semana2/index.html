@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <title>EJEMPLO FADMA</title>
+</head>
+<body>
+    <div class="main">
+
+
+        <div class="brochure">
+        <div class="title">
+            <h1>SITUATIONAL AWARENESS IN THE WORKPLACE</h1>
+        </div>
+
+        <div class="subtitle">
+            <p>Free product design illustrations for startups and designers. </p>
+        </div>
+        <div class="subtitle">
+            <p>High-quality digital assets that have been tested and reviewed by a team of </p>
+        </div>
+
+
+        <div class="primary-buttom">
+            <button>Download Brochure</button>
+        </div>
+
+        </div>
+
+
+    </div>
+
+
+    
+        
+
+    
+    <div class="more-info">
+        <section class="icons-container">
+            <div class="card-container">
+                <div class="card-icon">
+                    <figure>
+                        <img src="./icons/bx_bxs-book-heart2.svg" class="logo">
+                    </figure>   
+                </div>
+                <div class="icon-text">
+                    <h2 class="icon-title">RESEARCH-MATERIALS</h2>
+                    <p class="icon-text">Guide your decitions with our wealth of research</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="icons-container">
+            <div class="card-container">
+                <div class="card-icon">
+                    <figure>
+                        <img src="./icons/ant-design_alert-filled2.svg" class="logo">
+                    </figure>   
+                </div>
+                <div class="icon-text">
+                    <h2 class="icon-title">RESEARCH-MATERIALS</h2>
+                    <p class="icon-text">Guide your decitions with our wealth of research</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="icons-container">
+            <div class="card-container">
+                <div class="card-icon">
+                    <figure>
+                        <img src="./icons/ant-design_alert-filled.svg" class="logo">
+                    </figure>   
+                </div>
+                <div class="icon-text">
+                    <h2 class="icon-title">RESEARCH-MATERIALS</h2>
+                    <p class="icon-text">Guide your decitions with our wealth of research</p>
+                </div>
+            </div>
+        </section>
+
+        <section class="icons-container">
+            <div class="card-container">
+                <div class="card-icon">
+                    <figure>
+                        <img src="./icons/bx_bxs-book-heart.svg" class="logo">
+                    </figure>   
+                </div>
+                <div class="icon-text">
+                    <h2 class="icon-title">RESEARCH-MATERIALS</h2>
+                    <p class="icon-text">Guide your decitions with our wealth of research</p>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    
+
+
+
+</body>
+
+<style>
+    body {
+    font-family: 'Nunito', sans-serif;
+    margin: 0;
+}
+
+:root {
+    --white: #FFFFFF;
+    --black: #000000;
+    --purple: #6F2CFF;
+    --light-purple: #EFE9F9;
+    --red-heart: #A50954;
+    --blue-heart: #ACD9B2;
+    --sm: 14px;
+    --md: 20px;
+    --lg: 60px;
+}
+
+.main {
+    display: grid;
+    min-height: 100vh;
+    background-color: var(--white);
+}
+
+.brochure {
+    grid-area: brochure;
+    display: grid;
+    grid-template-rows: auto 1fr auto;
+    align-items: center;
+    justify-items: center;
+    background-color: var(--white);
+    padding: 20px;
+}
+
+.title {
+    color: var(--black);
+    text-align: center;
+    font-size: var(--lg);
+}
+
+.subtitle {
+    color: var(--black);
+    text-align: center;
+    font-size: var(--md);
+    margin: 5px 0;
+}
+
+.primary-buttom {
+    background-color: var(--purple);
+    color: var(--white);
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: var(--md);
+    cursor: pointer;
+    margin: 20px 0;
+}
+
+.more-info {
+    grid-area: more-info;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    background-color: var(--light-purple);
+    padding: 20px;
+}
+
+.card-container {
+    display: flex;
+    align-items: center;
+    margin: 16px 0;
+}
+
+.icons-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    justify-content: center;
+}
+
+.card-icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: var(--white);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-right: 28px;
+}
+
+.card-icon figure img {
+    width: 50px;
+    height: 50px;
+}
+
+.icon-text h2 {
+    font-size: var(--sm);
+    margin: 0;
+}
+
+.icon-text p {
+    font-size: var(--sm);
+    margin: 0;
+}
+
+@media (max-width: 720){
+    .icons-container{
+        grid-template-columns: repeat(1, 1fr);
+        margin: 50px 10px 50px 10px;
+    }
+}
+</style>
+</html>
+
