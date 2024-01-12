@@ -1,0 +1,10 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+html,body{
+  font-size: 18px;
+  background-color: #3b3bbe;
+  font-family: 'Segoe UI','Helvetica', sans-serif;
+}
