@@ -1,0 +1,28 @@
+*{
+    margin: 0;
+    padding: 0;
+
+}
+.boton-click{
+    width: 550px;
+}
+
+html,body{
+    font-size: 18px;
+    background-color: #f5f5f6;
+}
+
+button {
+    width: 300px;
+    height: 80px;
+    font-family: roboto, sans-serif;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 10px;
+    font-size: 24px;
+    background-color: #ff872c;
+}
+button:hover{
+    background-color: #dcdce5;
+    color: #ff872c ;
+}
